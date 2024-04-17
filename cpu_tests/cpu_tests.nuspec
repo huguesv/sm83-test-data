@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Woohoo.Emulation.TestData.CpuSM83</id>
+        <version>0.1</version>
+        <description>Unofficial NuGet package for the GameBoy (SM83) CPU operations test data created by Alex Tennant at https://github.com/adtennant/sm83-test-data</description>
+        <authors>Hugues Valois</authors>
+        <projectUrl>https://github.com/huguesv/sm83-test-data</projectUrl>
+        <license type="expression">MIT</license>
+        <readme>docs\README.md</readme>
+    </metadata>
+    <files>
+        <file src="v1\*.json" target="content" />
+        <file src="README.md" target="docs" />
+    </files>
+</package>
